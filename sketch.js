@@ -7,7 +7,7 @@ function setup() {
   osc = new p5.Oscillator('square');
 
   //a dropdown menu to change osc type
-createP('Select waveform: ');
+createSpan('Select waveform: ');
 waveFormSelect = createSelect();
   waveFormSelect.position(10,10);
   waveFormSelect.option('sine');
